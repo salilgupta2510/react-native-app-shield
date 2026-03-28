@@ -1,0 +1,56 @@
+{
+  "name": "react-native-app-shield",
+  "version": "1.0.0",
+  "description": "A React Native library for app security and privacy protections including screenshot blocking, screen recording detection, app background blur, and root/jailbreak detection.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "keywords": [
+    "react-native",
+    "security",
+    "privacy",
+    "screenshot",
+    "screen-recording",
+    "root-detection",
+    "jailbreak",
+    "app-shield"
+  ],
+  "author": "Salil Gupta",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.72.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.0.0",
+    "react": "^18.0.0",
+    "react-native": "^0.72.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "files": [
+    "lib",
+    "android",
+    "ios",
+    "react-native-app-shield.podspec"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salilgupta1/react-native-app-shield.git"
+  },
+  "homepage": "https://github.com/salilgupta1/react-native-app-shield#readme",
+  "bugs": {
+    "url": "https://github.com/salilgupta1/react-native-app-shield/issues"
+  }
+}
