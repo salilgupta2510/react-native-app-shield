@@ -47,10 +47,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/salilgupta1/react-native-app-shield.git"
+    "url": "git+https://github.com/salilgupta1/react-native-app-shield.git"
   },
   "homepage": "https://github.com/salilgupta1/react-native-app-shield#readme",
   "bugs": {
     "url": "https://github.com/salilgupta1/react-native-app-shield/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
