@@ -1,6 +1,6 @@
 {
   "name": "react-native-app-shield",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Native library for app security and privacy protections including screenshot blocking, screen recording detection, app background blur, and root/jailbreak detection.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
