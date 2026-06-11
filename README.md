@@ -185,6 +185,38 @@ configure({
 - iOS 11+
 - Android API 21+
 
+## 📱 Expo Support
+
+This library requires **custom native code** and is **not compatible with Expo Go** (managed workflow).
+
+| Expo Workflow | Supported | Notes |
+|---------------|-----------|-------|
+| Expo Go | ❌ | Custom native modules not allowed |
+| Bare Workflow | ✅ | Works identically to standard React Native |
+| Development Builds (EAS) | ✅ | Requires a custom development build |
+
+### Bare Workflow Setup
+
+If using Expo bare workflow, installation is the same as standard React Native. Run `npx expo run:ios` or `npx expo run:android` — Expo handles linking automatically.
+
+### Development Builds (EAS Build)
+
+1. Install the library:
+   ```bash
+   npm install react-native-app-shield
+   ```
+
+2. Add to your `eas.json` and create a development build:
+   ```bash
+   eas build --profile development --platform ios
+   # or
+   eas build --profile development --platform android
+   ```
+
+3. Install and run the development build on your device, then use the library as documented above.
+
+> **Note:** You cannot test this library using the Expo Go app. A development build or bare workflow project is required.
+
 ## ⚠️ Platform Limitations
 
 ### iOS
