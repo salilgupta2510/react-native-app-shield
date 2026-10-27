@@ -1,7 +1,7 @@
 {
   "name": "react-native-app-shield",
-  "version": "1.0.2",
-  "description": "A React Native library for app security and privacy protections including screenshot blocking, screen recording detection, app background blur, and root/jailbreak detection.",
+  "version": "1.0.3",
+  "description": "React Native security library: block screenshots, detect screen recording, blur app switcher preview, and detect root/jailbreak on iOS and Android.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -19,7 +19,18 @@
     "screen-recording",
     "root-detection",
     "jailbreak",
-    "app-shield"
+    "jailbreak-detection",
+    "app-shield",
+    "prevent-screenshot",
+    "screenshot-blocking",
+    "screen-capture",
+    "secure-screen",
+    "flag-secure",
+    "app-switcher-blur",
+    "blur-on-background",
+    "ios",
+    "android",
+    "typescript"
   ],
   "author": "Salil Gupta",
   "license": "MIT",
@@ -43,7 +54,8 @@
     "lib",
     "android",
     "ios",
-    "react-native-app-shield.podspec"
+    "react-native-app-shield.podspec",
+    "CHANGELOG.md"
   ],
   "repository": {
     "type": "git",

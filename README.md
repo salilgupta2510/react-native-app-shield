@@ -1,12 +1,13 @@
-# 🔒 React Native App Shield
+# react-native-app-shield
 
-[![npm version](https://badge.fury.io/js/react-native-app-shield.svg)](https://badge.fury.io/js/react-native-app-shield)
+[![npm version](https://img.shields.io/npm/v/react-native-app-shield.svg)](https://www.npmjs.com/package/react-native-app-shield)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-app-shield.svg)](https://www.npmjs.com/package/react-native-app-shield)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React Native](https://img.shields.io/badge/React%20Native-0.72+-blue.svg)](https://reactnative.dev/)
 
 **Protect your React Native app from screenshots, screen recordings, and unauthorized access.**
 
-React Native App Shield is a comprehensive security library that helps safeguard sensitive user data by preventing unauthorized screen captures and detecting device tampering. Perfect for banking, healthcare, e-commerce, and any app handling sensitive information.
+react-native-app-shield is a React Native security library (iOS + Android) to prevent screenshots, detect screen recording, blur the app switcher preview, and detect rooted/jailbroken devices. It helps safeguard sensitive user data by preventing unauthorized screen captures and detecting device tampering. Perfect for banking, healthcare, e-commerce, and any app handling sensitive information.
 
 ## ✨ Features
 
